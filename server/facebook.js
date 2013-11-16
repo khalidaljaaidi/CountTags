@@ -23,7 +23,7 @@ Facebook.prototype.query = function(query, method) {
 }
 
 Facebook.prototype.getComments = function() {
-	return this.query('/563020127098521/comments');
+	return this.query('/[object_ID]/comments');
 }
 
 Meteor.methods({
